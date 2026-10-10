@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>&amp;c group</title>
+<meta name="description" content="A collection of useful apps. Whenever I hit a problem with no reasonable solution, I make one.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#catalog">Skip to applications</a>
+
+<header class="bar">
+  <div class="wrap bar-inner">
+    <a class="brand" href="./" aria-label="&amp;c group">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect class="mark-bg" width="32" height="32" rx="6"/>
+        <path class="mark-fg" d="M14.47 22.4 13.53 21.37H13.5Q13.11 21.69 12.6 21.98Q12.08 22.27 11.41 22.45Q10.75 22.62 9.85 22.62Q8.43 22.62 7.46 22.15Q6.49 21.69 6 20.88Q5.5 20.07 5.5 19.04Q5.5 18.16 5.83 17.53Q6.16 16.9 6.75 16.4Q7.33 15.91 8.07 15.49Q7.54 14.88 7.09 14.1Q6.64 13.32 6.64 12.44Q6.64 11.6 7.1 10.9Q7.57 10.2 8.43 9.79Q9.3 9.38 10.47 9.38Q11.52 9.38 12.35 9.72Q13.18 10.06 13.67 10.72Q14.16 11.38 14.16 12.31Q14.16 13.12 13.81 13.73Q13.46 14.35 12.88 14.84Q12.3 15.32 11.61 15.74L13.59 17.89Q13.83 17.3 13.96 16.64Q14.08 15.98 14.12 15.34H17.18V17.6H16.03Q15.88 18.16 15.67 18.68Q15.46 19.19 15.2 19.63L17.75 22.4ZM10.4 11.45Q9.9 11.45 9.56 11.73Q9.22 12 9.22 12.5V12.57Q9.22 12.81 9.32 13.05Q9.42 13.29 9.66 13.58Q9.9 13.87 10.27 14.29Q10.71 14.04 10.99 13.78Q11.28 13.52 11.42 13.23Q11.57 12.94 11.57 12.57V12.5Q11.57 12.17 11.41 11.94Q11.26 11.71 10.99 11.58Q10.73 11.45 10.4 11.45ZM10.25 20.37Q10.62 20.37 10.95 20.3Q11.28 20.24 11.57 20.13Q11.86 20.02 12.1 19.85L9.41 16.94Q9 17.17 8.75 17.43Q8.49 17.69 8.38 17.96Q8.27 18.24 8.27 18.57V18.75Q8.27 19.45 8.76 19.91Q9.26 20.37 10.25 20.37ZM22.59 22.62Q20.43 22.62 19.26 21.25Q18.1 19.89 18.1 17.58Q18.1 15.27 19.26 13.91Q20.43 12.55 22.59 12.55Q24.06 12.55 25.04 13.21Q26.02 13.87 26.44 15.06L24.24 16.02Q24.12 15.47 23.71 15.08Q23.31 14.7 22.59 14.7Q21.77 14.7 21.35 15.24Q20.92 15.78 20.92 16.7V18.49Q20.92 19.39 21.35 19.94Q21.77 20.49 22.59 20.49Q23.4 20.49 23.79 20.05Q24.19 19.61 24.39 19.04L26.5 19.96Q26.02 21.34 25.01 21.98Q24.01 22.62 22.59 22.62Z"/>
+      </svg>
+      <span aria-hidden="true">group</span>
+    </a>
+    <nav class="bar-nav" aria-label="Main">
+      <a href="#catalog">Applications</a>
+      <a href="#about">About</a>
+      <a href="mailto:app.dev@andcgroup.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="intro">
+    <div class="wrap">
+      <h1>a collection of useful apps</h1>
+      <p>see below for app list. download at your own risk.</p>
+    </div>
+  </section>
+
+  <section id="catalog">
+    <div class="wrap">
+
+      <div class="catalog-head">
+        <h2>Applications</h2>
+        <div class="filters" role="group" aria-label="Filter applications">
+          <button type="button" class="filter is-on" data-filter="all" aria-pressed="true">All <span class="count">5</span></button>
+          <button type="button" class="filter" data-filter="available" aria-pressed="false">Available <span class="count">1</span></button>
+          <button type="button" class="filter" data-filter="soon" aria-pressed="false">In development <span class="count">4</span></button>
+        </div>
+      </div>
+
+      <ul class="list">
+
+        <li class="item" data-status="available">
+          <div class="capsule capsule-stockage" aria-hidden="true"><span>st</span></div>
+          <div class="item-body">
+            <h3 class="item-name"><a href="#stockage">Stockage</a></h3>
+            <p class="item-desc">Inventory for cafes and restaurants.</p>
+
+            <details class="more">
+              <summary>Features</summary>
+              <ul>
+                <li><strong>Items and units</strong> &mdash; Pack sizes, par levels and reorder points.</li>
+                <li><strong>Recipes and modifiers</strong> &mdash; Drink sizes, milk swaps and packaging worked out for you.</li>
+                <li><strong>Sales import</strong> &mdash; Build your menu from a POS export. Toast and generic CSV.</li>
+                <li><strong>Stock ledger</strong> &mdash; Every sale, delivery, waste and count is a recorded entry.</li>
+                <li><strong>Purchase orders</strong> &mdash; Drafted from vendor prices, with partial receiving.</li>
+                <li><strong>Printable POs</strong> &mdash; Your logo and ship-to address. Save as PDF to send.</li>
+                <li><strong>Suggest from par</strong> &mdash; Fills an order with whatever is running low.</li>
+                <li><strong>Vendors</strong> &mdash; Price lists, price history and CSV import.</li>
+                <li><strong>Waste log</strong> &mdash; Reason codes, plus an offline form for employees.</li>
+                <li><strong>Cycle counts</strong> &mdash; Count, then adjust the discrepancy.</li>
+                <li><strong>Reports</strong> &mdash; COGS, waste, days of stock, drink margins, usage trends.</li>
+                <li><strong>Backup</strong> &mdash; Export everything as JSON.</li>
+              </ul>
+            </details>
+
+            <details class="more">
+              <summary>Recent changes</summary>
+              <p>0.2.0 &mdash; Oct 8</p>
+              <ul>
+                <li>Printable purchase orders, with your logo and a ship-to address. Save as PDF to email one to a vendor.</li>
+                <li>&ldquo;Suggest from par levels&rdquo; fills an order with whatever is running low.</li>
+                <li>Import vendors from a CSV.</li>
+                <li>A standalone waste-log form for employees to fill in during a shift, imported back without ever deducting stock twice.</li>
+              </ul>
+            </details>
+
+            <p class="meta">
+              <span class="dot dot-rust" aria-hidden="true"></span> Rust &middot; Tauri &middot; SQLite
+              <span class="sep">&middot;</span> macOS, Apple Silicon
+              <span class="sep">&middot;</span> &Delta; 0.2.0 &middot; Oct 8
+            </p>
+          </div>
+          <div class="item-buy">
+            <p class="price">Free for now</p>
+            <p class="price-note">later: one-time, lifetime updates</p>
+            <a class="btn" href="https://github.com/andcfilms/stockage/releases/download/v0.2.0/Stockage_0.2.0_aarch64.dmg">Download</a>
+            <span class="status status-available">Available</span>
+          </div>
+        </li>
+
+        <li class="item" data-status="soon">
+          <div class="capsule capsule-jot" aria-hidden="true"><span>jot</span></div>
+          <div class="item-body">
+            <h3 class="item-name"><a href="#jot">Just One Thing</a></h3>
+            <p class="item-desc">Built to help me focus on one thing, Just One Thing is an interactive task tracker.</p>
+            <p class="meta">
+              <span class="dot dot-ts" aria-hidden="true"></span> TypeScript &middot; Rust &middot; Tauri
+            </p>
+          </div>
+          <div class="item-buy">
+            <p class="price">Free for now</p>
+            <p class="price-note">&nbsp;</p>
+            <a class="btn btn-quiet" href="mailto:app.dev@andcgroup.com?subject=Just%20One%20Thing">Notify me</a>
+            <span class="status status-soon">In development</span>
+          </div>
+        </li>
+
+        <li class="item" data-status="soon">
+          <div class="capsule capsule-muster" aria-hidden="true"><span>mu</span></div>
+          <div class="item-body">
+            <h3 class="item-name"><a href="#muster">Muster</a></h3>
+            <p class="item-desc">Screenwriting software.</p>
+
+            <details class="more">
+              <summary>Features</summary>
+              <ul>
+                <li><strong>Page View</strong> &mdash; Paper pages in industry-standard format.</li>
+                <li><strong>Type View</strong> &mdash; The caret stays put and the script moves around it.</li>
+                <li><strong>Metas</strong> &mdash; Tags that cross documents. Save The Cat and other structure frameworks built in.</li>
+                <li><strong>Drafts</strong> &mdash; Version Up with change logs. Open notes carry forward.</li>
+                <li><strong>Folders and search</strong> &mdash; Find any line in any draft, with filters.</li>
+                <li><strong>Scraps</strong> &mdash; Send a selection to a scrap and keep writing.</li>
+                <li><strong>Proofreading</strong> &mdash; Spelling, grammar and a walkthrough.</li>
+                <li><strong>Review files</strong> &mdash; Send a draft as one HTML file for notes, and file the notes back.</li>
+                <li><strong>Import</strong> &mdash; Final Draft (.fdx) and Fade In.</li>
+                <li><strong>Export</strong> &mdash; PDF, plus its own .mstr format.</li>
+                <li><strong>Private</strong> &mdash; No accounts, no cloud, no network calls.</li>
+              </ul>
+            </details>
+
+            <details class="more">
+              <summary>Recent changes</summary>
+              <p>0.2.1 &mdash; Oct 7</p>
+              <ul>
+                <li>Folders open on a click, with a path along the top of the Drafts pane. Anything you make while a folder is open is filed in it.</li>
+                <li>Search across every draft, with filters for scripts, documents, beat sheets, scraps and locked drafts.</li>
+                <li>Send to Scraps: turn a selection into a scrap without leaving the page.</li>
+                <li>Hover a draft to see its change log and how far it has moved from the draft it came from.</li>
+              </ul>
+            </details>
+
+            <p class="meta">
+              <span class="dot dot-ts" aria-hidden="true"></span> TypeScript &middot; React &middot; Tauri
+              <span class="sep">&middot;</span> macOS
+              <span class="sep">&middot;</span> Alpha &middot; &Delta; 0.2.1 &middot; Oct 7
+            </p>
+          </div>
+          <div class="item-buy">
+            <p class="price">Free for now</p>
+            <p class="price-note">&nbsp;</p>
+            <a class="btn btn-quiet" href="mailto:app.dev@andcgroup.com?subject=Muster">Notify me</a>
+            <span class="status status-soon">In development</span>
+          </div>
+        </li>
+
+        <li class="item" data-status="soon">
+          <div class="capsule capsule-someday" aria-hidden="true"><span>sm</span></div>
+          <div class="item-body">
+            <h3 class="item-name"><a href="#someday">Hey, Someday</a></h3>
+            <p class="item-desc">A financial forecasting tool for family financial planning.</p>
+
+            <details class="more">
+              <summary>Features</summary>
+              <ul>
+                <li><strong>CSV import</strong> &mdash; YNAB, QuickBooks, Monarch and bank exports.</li>
+                <li><strong>Baseline</strong> &mdash; Where your money is headed if nothing changes.</li>
+                <li><strong>Rules</strong> &mdash; Cut spending, pay extra, skip a payment, sell an asset.</li>
+                <li><strong>Goals</strong> &mdash; A debt-free date, or a savings or net worth target.</li>
+                <li><strong>Models</strong> &mdash; Keep several named plans and switch between them.</li>
+                <li><strong>Compare</strong> &mdash; Set any plan against an earlier snapshot.</li>
+                <li><strong>Life events</strong> &mdash; Pre-written examples to start from.</li>
+                <li><strong>Advanced rules</strong> &mdash; Write your own in plain text.</li>
+                <li><strong>Households</strong> &mdash; Share one plan, with a history of who changed what.</li>
+                <li><strong>Private</strong> &mdash; Sensitive data is encrypted. Raw CSV files never leave your device.</li>
+              </ul>
+            </details>
+
+            <p class="meta">
+              <span class="dot dot-ts" aria-hidden="true"></span> TypeScript &middot; Next.js &middot; Supabase
+              <span class="sep">&middot;</span> Web, phone to desktop
+              <span class="sep">&middot;</span> Closed beta soon
+            </p>
+          </div>
+          <div class="item-buy">
+            <p class="price">Free for now</p>
+            <p class="price-note">&nbsp;</p>
+            <a class="btn btn-quiet" href="mailto:app.dev@andcgroup.com?subject=Hey%2C%20Someday">Notify me</a>
+            <span class="status status-soon">In development</span>
+          </div>
+        </li>
+
+        <li class="item" data-status="soon">
+          <div class="capsule capsule-nicelist" aria-hidden="true"><span>nl</span></div>
+          <div class="item-body">
+            <h3 class="item-name"><a href="#nice-list">The Nice List</a></h3>
+            <p class="item-desc">A gift tracking application for the winter holidays.</p>
+
+            <details class="more">
+              <summary>Read more</summary>
+              <p>A gift exchange has exactly one secret: who is buying what. The Nice List keeps it in the database rather than the interface, so no screen, number or notification can give it away.</p>
+              <ul>
+                <li>Everyone in a tree keeps a list of what they want.</li>
+                <li>Others claim items on it. Nothing you can see is computed from your own gifts.</li>
+                <li>The secret ends when the recipient says it does, never on a date. Families open presents on Christmas Eve, on Christmas morning, or the weekend after, and any fixed date spoils somebody.</li>
+                <li>Vote each other naughty or nice.</li>
+                <li>Notifications never carry a claimer&rsquo;s name to the person getting the gift.</li>
+              </ul>
+              <p>Next year, the tree becomes a party: you pick a monster, it arrives at the tree with everybody else&rsquo;s, and the tree collects ornaments as the family adds gifts and votes.</p>
+            </details>
+
+            <p class="meta">
+              <span class="dot dot-ts" aria-hidden="true"></span> TypeScript &middot; React Native &middot; Supabase
+              <span class="sep">&middot;</span> iOS, Android
+              <span class="sep">&middot;</span> Backend built, app in progress
+            </p>
+          </div>
+          <div class="item-buy">
+            <p class="price">Free for now</p>
+            <p class="price-note">&nbsp;</p>
+            <a class="btn btn-quiet" href="mailto:app.dev@andcgroup.com?subject=The%20Nice%20List">Notify me</a>
+            <span class="status status-soon">In development</span>
+          </div>
+        </li>
+
+      </ul>
+
+      <p class="empty" hidden>Nothing in this filter yet.</p>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <h3>Why these exist</h3>
+          <p>Whenever I run into a problem that doesn&rsquo;t have a reasonable solution, I tend to go and make one.</p>
+        </div>
+        <div>
+          <h3>At your own risk</h3>
+          <p>Most of this is alpha or earlier. It works for me, and I&rsquo;m still finding the edges. Keep a backup, and email me when something breaks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <span>&amp;c group</span>
+    <span><a href="mailto:app.dev@andcgroup.com">app.dev@andcgroup.com</a></span>
+    <span>&copy; 2026</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter');
+  var items = document.querySelectorAll('.item');
+  var empty = document.querySelector('.empty');
+  if (!buttons.length || !items.length) return;
+
+  Array.prototype.forEach.call(buttons, function (button) {
+    button.addEventListener('click', function () {
+      var want = button.getAttribute('data-filter');
+      var shown = 0;
+
+      Array.prototype.forEach.call(buttons, function (other) {
+        var on = other === button;
+        other.classList.toggle('is-on', on);
+        other.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+
+      Array.prototype.forEach.call(items, function (item) {
+        var match = want === 'all' || item.getAttribute('data-status') === want;
+        item.hidden = !match;
+        if (match) shown++;
+      });
+
+      if (empty) empty.hidden = shown > 0;
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
